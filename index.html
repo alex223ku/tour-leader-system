@@ -527,5 +527,27 @@
         const root = ReactDOM.createRoot(document.getElementById('root'));
         root.render(e(App, null));
     </script>
+	
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyDnEygFfGin-UyqsPMHHlRToVcbLJZi0ig",
+    authDomain: "tour-leader-system.firebaseapp.com",
+    projectId: "tour-leader-system",
+    storageBucket: "tour-leader-system.firebasestorage.app",
+    messagingSenderId: "556520250588",
+    appId: "1:556520250588:web:b60870c4281aa04bb4e819"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+	
+	
 </body>
 </html>
